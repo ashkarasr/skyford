@@ -72,6 +72,7 @@
     left: auto;
   }
   .b-contacts-1 .b-contacts-1__item {
+    text-align: left;
     margin-bottom: 20px;
     border-right: 1px solid #fff;
   }
@@ -198,8 +199,15 @@
   .main-slider__title {
     padding-top: 110px;
   }
+
+  .main-slider__info {
+    margin-top: 22px;
+    font-size: 27px;
+  }
+
   .main-slider__info {
     margin-top: 30px;
+
   }
   .section-full-width__main {
     padding-left: 25px;
