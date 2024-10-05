@@ -755,7 +755,7 @@ select:focus {
 }
 .section-default {
 	position: relative;
-	/*padding-top: 110px;*/
+	padding-top: 110px;
 	padding-bottom: 110px;
 }
 .section-default_padd-top {
@@ -1375,7 +1375,7 @@ body {
 	overflow: hidden;
 }
 .section-branches {
-	padding-top: 110px;
+	/*padding-top: 110px;*/
 	padding-bottom: 90px;
 }
 .section-branches__map {
@@ -1393,7 +1393,10 @@ body {
 .b-branches {
 	position: relative;
 	display: inline-block;
-	width: 33.33%;
+	/*width: 33.33%;*/
+	width: 24.33%;
+
+	24.33%
 	margin-top: 69px;
 	margin-right: -3px;
 	margin-bottom: 20px;
@@ -2939,7 +2942,8 @@ body {
 }
 .footer-gallery__item {
 	display: inline-block;
-	width: 33.3%;
+	/*width: 33.3%;*/
+	    width: 68.3%;
 	margin-right: -3px;
 	margin-bottom: 10px;
 	padding-right: 10px;
