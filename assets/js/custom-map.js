@@ -16,7 +16,7 @@
             zoom: 12,
 
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(40.6700, -73.9400), // New York
+            center: new google.maps.LatLng(25.2602, 55.3047), // New York
 
             scrollwheel: false,
 
