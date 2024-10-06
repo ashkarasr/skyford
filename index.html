@@ -22,7 +22,46 @@
 
 
   <!-- Loader-->
-  <div id="page-preloader"><span class="spinner"></span></div>
+  <!-- <div id="page-preloader"><span class="spinner"></span></div> -->
+
+<div id="page-preloader"><div class="spinner"></div></div>
+
+<style type="text/css">
+
+  
+.spinner {
+  width: 28px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #E3AAD6;
+  transform-origin: top;
+  display: grid;
+  animation: l3-0 1s infinite linear;
+}
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  background:#F4DD51;
+  border-radius: 50%;
+  transform-origin: top;
+  animation: inherit;
+  animation-name: l3-1;
+}
+.spinner::after {
+  background: #F10C49;
+  --s:180deg;
+}
+@keyframes l3-0 {
+  0%,20% {transform: rotate(0)}
+  100%   {transform: rotate(360deg)}
+}
+@keyframes l3-1 {
+  50% {transform: rotate(var(--s,90deg))}
+  100% {transform: rotate(0)}
+}
+
+</style>
 
   <div data-header="sticky" data-header-top="200" class="l-theme animated-css">
     <!-- Start Switcher-->
