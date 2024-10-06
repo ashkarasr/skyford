@@ -354,6 +354,10 @@
 
 @media (max-width:480px) {
 
+  .b-branches {
+    padding-left: 140px;
+  }
+
   .whats-app {
     left: 30px;
 }
