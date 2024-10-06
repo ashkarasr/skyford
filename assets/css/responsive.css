@@ -11,11 +11,19 @@
 
 
 @media (min-width:1199px) and (max-width:1350px) {
+
+  .whats-app {
+    left: 30px;
+}
 }
 
 
 
 @media (min-width:992px) and (max-width:1199px) {
+
+  .whats-app {
+    left: 30px;
+}
   .section-type-1 .list li {
     width: 100%;
     display: block;
@@ -36,6 +44,10 @@
 
 
 @media (max-width:1199px) {
+
+  .whats-app {
+    left: 30px;
+}
   .section-type-1 .list li {
     width: 100%;
     display: block;
@@ -46,6 +58,11 @@
 
 
 @media (max-width:991px) {
+
+  .whats-app {
+    left: 30px;
+}
+
   .block-table__cell {
     display: block;
   }
@@ -137,6 +154,9 @@
 
 
 @media (max-width:991px) and (min-width:768px) {
+  .whats-app {
+    left: 30px;
+}
   .b-progress-list__item {
     padding-left: 10px;
     padding-right: 10px;
@@ -153,6 +173,10 @@
 
 
 @media (max-width:767px) {
+
+  .whats-app {
+    left: 30px;
+}
     
     
     html .demo-body-2h {
@@ -322,9 +346,17 @@
 
 
 @media (max-width:767px) and (min-width:480px) {
+
+  .whats-app {
+    left: 30px;
+}
 }
 
 @media (max-width:480px) {
+
+  .whats-app {
+    left: 30px;
+}
   .copyright-links {
     margin-top: 10px;
     float: none;
