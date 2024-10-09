@@ -19,9 +19,71 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico"/>
 </head>
 <body>
-  <!-- Loader-->
-  <div id="page-preloader"><span class="spinner"></span></div>
-  <!-- Loader end-->
+   <!-- Loader-->
+  <!-- <div id="page-preloader"><span class="spinner"></span></div> -->
+
+<div id="page-preloader"><div class="spinner"></div></div>
+
+<style type="text/css">
+
+
+  /* HTML: <div class="loader"></div> */
+.spinner {    
+  --r1: 154%;
+  --r2: 68.5%;
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%; 
+  background:
+    radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#a4702d 80%),
+    radial-gradient(var(--r1) var(--r2) at bottom,#a4702d 79.5%,#0000 80%),
+    radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#a4702d 80%),
+    #ccc;
+  background-size: 50.5% 220%;
+  background-position: -100% 0%,0% 0%,100% 0%;
+  background-repeat:no-repeat;
+  animation: l9 2s infinite linear;
+}
+@keyframes l9 {
+    33%  {background-position:    0% 33% ,100% 33% ,200% 33% }
+    66%  {background-position: -100%  66%,0%   66% ,100% 66% }
+    100% {background-position:    0% 100%,100% 100%,200% 100%}
+}
+
+/*
+.spinner {
+  width: 28px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #E3AAD6;
+  transform-origin: top;
+  display: grid;
+  animation: l3-0 1s infinite linear;
+}
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  background:#F4DD51;
+  border-radius: 50%;
+  transform-origin: top;
+  animation: inherit;
+  animation-name: l3-1;
+}
+.spinner::after {
+  background: #F10C49;
+  --s:180deg;
+}
+@keyframes l3-0 {
+  0%,20% {transform: rotate(0)}
+  100%   {transform: rotate(360deg)}
+}
+@keyframes l3-1 {
+  50% {transform: rotate(var(--s,90deg))}
+  100% {transform: rotate(0)}*/
+}
+
+</style>
   
   <div data-header="sticky" data-header-top="200" class="l-theme animated-css">
     <!-- Start Switcher-->
