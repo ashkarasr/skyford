@@ -13,7 +13,7 @@
 @media (min-width:1199px) and (max-width:1350px) {
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
 }
 
@@ -22,7 +22,7 @@
 @media (min-width:992px) and (max-width:1199px) {
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
   .section-type-1 .list li {
     width: 100%;
@@ -46,7 +46,7 @@
 @media (max-width:1199px) {
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
   .section-type-1 .list li {
     width: 100%;
@@ -60,7 +60,7 @@
 @media (max-width:991px) {
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
 
   .block-table__cell {
@@ -68,6 +68,7 @@
   }
   .block-table__cell_2-col {
     width: 100%;
+    margin-bottom: 30px;
   }
   .b-advantages-2 {
     margin-top: 0;
@@ -155,7 +156,7 @@
 
 @media (max-width:991px) and (min-width:768px) {
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
   .b-progress-list__item {
     padding-left: 10px;
@@ -175,7 +176,7 @@
 @media (max-width:767px) {
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
     
     
@@ -348,7 +349,7 @@
 @media (max-width:767px) and (min-width:480px) {
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
 }
 
@@ -359,7 +360,7 @@
   }
 
   .whats-app {
-    left: 30px;
+    right: 30px;
 }
   .copyright-links {
     margin-top: 10px;
